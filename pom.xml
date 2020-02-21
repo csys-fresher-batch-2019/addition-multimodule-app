@@ -5,11 +5,17 @@
   <artifactId>libraryapp-parent</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+	
   <modules>
   	
 	<module>libraryapp-core</module>
     <module>libraryapp-web</module>
   </modules>
+	
+   <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
   	<build>
 		<plugins>
 		 <plugin>
