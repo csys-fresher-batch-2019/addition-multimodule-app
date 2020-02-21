@@ -1,6 +1,7 @@
 language: java
 deploy:
   provider: heroku
+  app: addition-multimodule-app
   api_key:
     secure: "4c2a2e42-7a03-442a-99dc-2ac7f7b88a44"
 script:
